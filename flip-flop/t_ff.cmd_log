@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Mohit/Desktop/mk/flip-flop/t_ff.xst" -ofn "C:/Users/Mohit/Desktop/mk/flip-flop/t_ff.syr" 

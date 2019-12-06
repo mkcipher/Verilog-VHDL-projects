@@ -1,0 +1,2 @@
+xst -ise "F:/vhdl lab/adder/adder" -intstyle ise -ifn full_adder.xst -ofn full_adder.syr
+xst -ise "F:/vhdl lab/adder/adder" -intstyle ise -ifn full_adder.xst -ofn full_adder.syr

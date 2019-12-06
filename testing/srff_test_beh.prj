@@ -1,0 +1,3 @@
+verilog work "srff.v"
+verilog work "srff_test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="fourbitc.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fourbc_test_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="t_ff_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="t_ff_test_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1409464518" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1409464518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1409982912" xil_pn:in_ck="7214966367729275889" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1409982912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="async_fourbc.v"/>
+      <outfile xil_pn:name="async_fourbc_test.v"/>
+      <outfile xil_pn:name="fourbc.v"/>
+      <outfile xil_pn:name="fourbc_test.v"/>
+      <outfile xil_pn:name="t_ff.v"/>
+      <outfile xil_pn:name="t_ff_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1409981812" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-460693343533625708" xil_pn:start_ts="1409981812">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1409981812" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7128394097850542414" xil_pn:start_ts="1409981812">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1409464518" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2126494472747629762" xil_pn:start_ts="1409464518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1409982912" xil_pn:in_ck="7214966367729275889" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1409982912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="async_fourbc.v"/>
+      <outfile xil_pn:name="async_fourbc_test.v"/>
+      <outfile xil_pn:name="fourbc.v"/>
+      <outfile xil_pn:name="fourbc_test.v"/>
+      <outfile xil_pn:name="t_ff.v"/>
+      <outfile xil_pn:name="t_ff_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1409982916" xil_pn:in_ck="7214966367729275889" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5811767931529246967" xil_pn:start_ts="1409982912">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1409465686" xil_pn:in_ck="-7500209287285714020" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3901825450024675812" xil_pn:start_ts="1409465686">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="t_ff_test_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

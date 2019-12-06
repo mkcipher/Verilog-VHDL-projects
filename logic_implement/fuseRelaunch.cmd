@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Mohit/Desktop/mk/logic_implement/ckt_isim_beh.exe" -prj "C:/Users/Mohit/Desktop/mk/logic_implement/ckt_beh.prj" "work.ckt" "work.glbl" 

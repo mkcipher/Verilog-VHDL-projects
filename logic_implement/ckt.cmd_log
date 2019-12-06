@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Mohit/Desktop/mk/logic_implement/ckt.xst" -ofn "C:/Users/Mohit/Desktop/mk/logic_implement/ckt.syr" 
+xst -intstyle ise -ifn "C:/Users/Mohit/Desktop/mk/logic_implement/ckt.xst" -ofn "C:/Users/Mohit/Desktop/mk/logic_implement/ckt.syr" 

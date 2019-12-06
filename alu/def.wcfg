@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Mohit/Desktop/mk/alu/alu_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/alu_test/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/data1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/data2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">control[7:0]</obj_property>
+      <obj_property name="ObjectShortName">control[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+</wave_config>

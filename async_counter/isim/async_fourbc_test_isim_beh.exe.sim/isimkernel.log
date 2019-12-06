@@ -1,0 +1,28 @@
+Command line:
+   async_fourbc_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50722
+
+Sat Sep 27 01:04:30 2014
+
+
+ Elaboration Time: 0.156001 sec
+
+ Current Memory Usage: 671.285 Meg
+
+ Total Signals          : 17
+ Total Nets             : 20
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 107
+
+ Total Simulation Time: 0.187202 sec
+
+ Current Memory Usage: 985.858 Meg
+
+Sat Sep 27 01:05:15 2014
+

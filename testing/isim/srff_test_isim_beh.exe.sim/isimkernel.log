@@ -1,0 +1,28 @@
+Command line:
+   srff_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49268
+
+Sat Mar 28 11:11:10 2015
+
+
+ Elaboration Time: 0.280802 sec
+
+ Current Memory Usage: 671.289 Meg
+
+ Total Signals          : 26
+ Total Nets             : 24
+ Total Signal Drivers   : 16
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 23
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 109
+
+ Total Simulation Time: 0.374403 sec
+
+ Current Memory Usage: 671.289 Meg
+
+Sat Mar 28 14:14:38 2015
+

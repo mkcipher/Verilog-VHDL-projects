@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 23: Redeclaration of ansi port <arg fmt="%s" index="1">q</arg> is not allowed
+</msg>
+
+<msg type="error" file="HDLCompiler" num="711" delta="unknown" >"C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 23: Found more than one declaration of port &lt;<arg fmt="%s" index="1">q</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="661" delta="unknown" >"C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 21: Non-net port <arg fmt="%s" index="1">q</arg> cannot be of mode <arg fmt="%s" index="2">input</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="719" delta="unknown" >"C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 23: Port declaration not allowed in <arg fmt="%s" index="1">async_fourbc</arg> with formal port declaration list
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 21: Module &lt;<arg fmt="%s" index="1">async_fourbc</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

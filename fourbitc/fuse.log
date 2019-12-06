@@ -1,0 +1,12 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc_test_isim_beh.exe -prj C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc_test_beh.prj work.async_fourbc_test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 23: Redeclaration of ansi port q is not allowed
+ERROR:HDLCompiler:711 - "C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 23: Found more than one declaration of port <q>.
+ERROR:HDLCompiler:661 - "C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 21: Non-net port q cannot be of mode input
+ERROR:HDLCompiler:719 - "C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 23: Port declaration not allowed in async_fourbc with formal port declaration list
+ERROR:HDLCompiler:598 - "C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v" Line 21: Module <async_fourbc> ignored due to previous errors.
+Verilog file C:/Users/Mohit/Desktop/mk/fourbitc/async_fourbc.v ignored due to errors

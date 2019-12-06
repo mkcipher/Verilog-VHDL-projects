@@ -1,0 +1,10 @@
+vhdtdtfi -lib work H:/mk/gates/three_xor.v -lang verilog -prj gates -o three_xor.spl -module three_xor -template H:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 three_xor.spl H:/mk/gates/three_xor.sym 
+vhdtdtfi -lang verilog -prj gates -o H:/mk/gates/three_xor.tfi -lib work H:/mk/gates//three_xor.v -module three_xor -template H:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj gates -o H:/mk/gates/three_xor.tfi -lib work H:/mk/gates//three_xor.v -module three_xor -template H:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "H:/mk/gates/three_xor.xst" -ofn "H:/mk/gates/three_xor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 three_xor.ngc three_xor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o three_xor_map.ncd three_xor.ngd three_xor.pcf 
+par -w -intstyle ise -ol high -mt off three_xor_map.ncd three_xor.ncd three_xor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml three_xor.twx three_xor.ncd -o three_xor.twr three_xor.pcf 
+bitgen -intstyle ise -f three_xor.ut three_xor.ncd 

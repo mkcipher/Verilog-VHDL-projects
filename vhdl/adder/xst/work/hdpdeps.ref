@@ -1,0 +1,13 @@
+V3 6
+FL "F:/vhdl lab/adder/half_adder.vhd" 2015/03/02.19:41:58 I.24
+EN work/half_adder 1425305531      FL "F:/vhdl lab/adder/half_adder.vhd" \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/half_adder/Behavioral 1425305532 FL "F:/vhdl lab/adder/half_adder.vhd" \
+      EN work/half_adder 1425305531
+FL "F:/vhdl lab/adder/full_adder.vhd" 2015/03/02.20:03:56 I.24
+EN work/full_adder 1425306840      FL "F:/vhdl lab/adder/full_adder.vhd" \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/full_adder/Behavioral 1425306841 FL "F:/vhdl lab/adder/full_adder.vhd" \
+      EN work/full_adder 1425306840

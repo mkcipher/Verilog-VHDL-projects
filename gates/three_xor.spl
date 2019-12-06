@@ -1,0 +1,10 @@
+[Inputs]
+a
+b
+c
+[Outputs]
+d
+[BiDir]
+[ATTRIBUTES]
+VeriModel three_xor
+

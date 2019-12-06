@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+three_xor instance_name (
+    .a(a), 
+    .b(b), 
+    .c(c), 
+    .d(d)
+    );
+
+
